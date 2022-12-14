@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+  * {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  /* Navbar */
+  .nav-item3 {
+    display: none;
+  }
+  .nav-bar {
+    flex-direction: column;
+    height: 200px;
+    height: auto;
+    border: none;
+    margin: 10px 0px;
+  }
+  .nav-item {
+    display: block;
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+  .nav-item a {
+    height: 25px;
+  }
+
+  /* Thông tin cá nhân */
+  .target {
+    flex-direction: column;
+  }
+
+  /* Kinh nghiệm và kĩ năng */
+  .job-info {
+    grid-template-columns: 75%;
+  }
+
+  /* Chứng chỉ- giải thưởng */
+  .chung-chi {
+    grid-template-columns: 1fr;
+    padding-right: 20px;
+    row-gap: 30px;
+    padding-left: 30px;
+  }
+  .chung-chi-con {
+    width: 85%;
+    flex-direction: column;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .con4 {
+    border-bottom: none;
+  }
+  .certificate-img {
+    width: 75%;
+  }
+  .chung-chi-content {
+    margin-top: 15px;
+  }
+
+  /* Title Chứng chỉ + dự án */
+  .chung-chi-title,
+  .du-an-title {
+    padding: 15px 0px 25px 25px;
+  }
+
+  /* Dự án */
+  .du-an {
+    grid-template-columns: 75%;
+    gap: 25px;
+  }
+  .du-an1,
+  .du-an2,
+  .du-an3 {
+    border: 1px solid rgb(183, 177, 177);
+  }
+  .img-du-an {
+    width: 100%;
+  }
+
+  .mini-div {
+    border-top: 1px solid rgb(183, 177, 177);
+    height: auto;
+    padding: 10px 0 10px 3px;
+  }
+  .mini-div2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .mini-div .year {
+    width: fit-content;
+  }
+
+  #project table td {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+}

@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+/* Banner */
+#banner {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url(../images/banner.jpg);
+  background-size: cover;
+  color: #f7f7f7;
+}
+
+.banner_container {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, 0%);
+}
+
+/* Navbar */
+.nav-bar {
+  display: flex;
+}
+.nav-bar i {
+  color: rgb(79, 174, 243);
+}
+.nav-bar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  align-self: stretch;
+  color: #2f2f2f;
+}
+/* Mục tiêu nghề nghiệp */
+.target {
+  display: flex;
+  line-height: 1.6;
+}
+
+.info {
+  padding-bottom: 20px;
+  padding-left: 0px;
+  list-style-type: none;
+  font-size: 18px;
+}
+.icon-contact {
+  color: rgb(79, 174, 243);
+}
+#target {
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 30px;
+  background-color: rgba(232, 232, 232, 0.934);
+}
+#personal-info {
+  padding-bottom: 25px;
+  padding-left: 40px;
+}
+
+#about .section-title {
+  padding-top: 80px;
+  padding-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Kỹ năng và kinh nghiệm */
+.job-info {
+  display: grid;
+  justify-content: center;
+}
+.year {
+  background-color: rgb(79, 174, 243);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.kinh-nghiem,
+.hoc-van,
+.hoat-dong,
+.so-thich,
+.ky-nang,
+.ngon-ngu {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 84px 466px;
+  border: 1px solid rgb(148, 146, 146);
+  height: auto;
+}
+
+.job-info .section-title {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  height: 84px;
+}
+
+.ic-toolbox,
+.ic-tools-2,
+.ic-mic,
+.ic-pencil,
+.ic-telescope {
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgba(109, 102, 102, 0.797);
+  height: 84px;
+}
+
+.section-content {
+  grid-column: 1/3;
+  font-size: 16px;
+  padding-left: 20px;
+  height: 100%;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.section-content p {
+  margin: 0;
+}
+.section-content li {
+  padding-bottom: 20px;
+}
+
+#job-info ul {
+  list-style: none;
+  padding-left: 15px;
+}
+#job-info ul li::before {
+  content: "\2022";
+  color: rgb(79, 174, 243);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+/* CSS cho phần sở thích */
+.iclike {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px 40px;
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+  height: 600px;
+  font-size: 17px;
+}
+
+.iclike i {
+  color: rgba(97, 210, 245, 0.799);
+}
+.iconlike1,
+.iconlike2,
+.iconlike3,
+.iconlike4 {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(30, 193, 243, 0.799);
+  border-radius: 50%;
+  padding-top: 8px;
+  margin: auto;
+}
+
+#job-info {
+  padding-bottom: 20px;
+}
+
+/* Ngôn ngữ, kỹ năng */
+
+.ngon-ngu span,
+.ky-nang span {
+  background-color: rgb(79, 174, 243);
+  display: inline-block;
+  height: 2px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.ngon-ngu .span-xam,
+.ky-nang .span-xam {
+  background-color: gray;
+  display: inline-block;
+  height: 2px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+/* Chứng chỉ - giải thưởng */
+.chung-chi {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.chung-chi-con {
+  display: flex;
+  font-size: 16px;
+}
+
+/* Chứng chỉ - dự án title */
+.chung-chi-title,
+.du-an-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Dự án */
+.du-an {
+  display: grid;
+  justify-content: center;
+  font-size: 16px;
+}
+.du-an table {
+  border-collapse: collapse;
+}
+.du-an tr {
+  border-top: 1px solid rgb(183, 177, 177);
+}
+.mini-div {
+  border-top: 1px solid rgb(183, 177, 177);
+}
+#project {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+
+#footer i {
+  color: rgba(53, 156, 246, 0.751);
+}
+#footer a {
+  text-decoration: none;
+}
+#footer a:link,
+#footer a:visited {
+  color: #6a6868e1;
+}
+#footer a:hover {
+  color: cornflowerblue;
+}
+#footer a:active {
+  color: green;
+}

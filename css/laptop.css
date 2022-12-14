@@ -1,0 +1,123 @@
+/* MEDIA QUERY */
+@media only screen and (min-width: 768px) {
+  /* NavBar */
+  .nav-bar {
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #2f2f2f;
+    height: 70px;
+  }
+  .nav-bar a {
+    text-align: center;
+    border-collapse: collapse;
+    border-left: 0.1px solid rgb(99, 99, 99);
+    border-right: 0.1px solid rgb(99, 99, 99);
+  }
+  .nav-item {
+    flex-basis: 200px;
+    min-width: 170px;
+    font-size: 18px;
+    line-height: 70px;
+  }
+  .nav-item3 {
+    flex-basis: 400px;
+    min-width: 400px;
+  }
+
+  #name {
+    font-size: 28px;
+    margin: 0;
+  }
+  #major {
+    font-size: 15px;
+    margin: 0;
+    color: rgba(49, 49, 47, 0.319);
+  }
+
+  /* Mục tiêu nghề nghiệp */
+
+  #target {
+    width: 50%;
+  }
+  #personal-info {
+    width: 50%;
+  }
+
+  /* Kinh nghiệm, kĩ năng,... */
+  .job-info {
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+  }
+
+  /* Chứng chỉ và giải thưởng */
+
+  .chung-chi {
+    padding-bottom: 15px;
+    padding-right: 20px;
+    row-gap: 30px;
+    padding-left: 150px;
+  }
+  .chung-chi-con {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .certificate-img {
+    width: 250px;
+  }
+
+  .con1 {
+    border-right: 1px solid #d6c08d;
+  }
+
+  .con2 {
+    padding-left: 30px;
+  }
+
+  .con3,
+  .con4 {
+    padding-top: 35px;
+    border-top: 1px solid #d6c08d;
+  }
+
+  /* Title Chứng chỉ + dự án */
+  .chung-chi-title,
+  .du-an-title {
+    padding: 30px 0px 30px 150px;
+  }
+
+  /* Dự án */
+  .du-an {
+    grid-template-columns: 350px 350px 350px;
+    gap: 35px;
+  }
+
+  .du-an1,
+  .du-an2,
+  .du-an3 {
+    box-shadow: 5px 5px 5px 5px #c1bdbd;
+  }
+  .img-du-an {
+    width: 350px;
+  }
+
+  .td1 {
+    width: 120px;
+    padding-left: 15px;
+  }
+
+  .mini-div {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #project table td {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #project {
+    margin-bottom: 30px;
+  }
+}
